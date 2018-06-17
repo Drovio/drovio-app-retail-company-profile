@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<views><view name="MainView"/><folder name="overview"><view name="companyOverview"/><view name="companyInfo"/><view name="editCompanyInfo"/></folder><folder name="branches"><view name="branchesOverview"/><view name="branchInfo"/><view name="editBranchInfo"/><view name="branchList"/><view name="addBranchDialog"/></folder><folder name="storage"><view name="storageUnitsOverview"/><view name="addStUnitDialog"/><view name="unitsList"/><view name="stUnitInfo"/><view name="editUnitInfo"></view></folder></views>

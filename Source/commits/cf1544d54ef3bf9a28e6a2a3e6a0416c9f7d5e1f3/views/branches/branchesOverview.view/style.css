@@ -1,0 +1,72 @@
+.branchesOverview {
+	margin-top: 10px;
+}
+
+.branchesOverview .header {
+	margin: 10px;
+	overflow: auto;
+}
+
+.branchesOverview .header .bbutton {
+	float: left;
+	width: 18%;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding: 8px 12px;
+	background: #ff5252;
+	color: #FFF;
+	border: 1px solid #ff5252;
+	text-align: center;
+	line-height: 16px;
+	cursor: pointer;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.branchesOverview .header .bbutton:hover {
+	background: transparent;
+	color: #ff5252;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+.branchesOverview .searchContainer {
+	width: 80%;
+	float: right;
+	background: #FFF;
+	overflow: auto;
+	border: 1px solid #E8E8E8;
+}
+
+.branchesOverview .searchContainer .searchIco {
+	float: right;
+	width: 20px;
+	height: 20px;
+	background: url('%{media}/icons/iconSprite.svg') no-repeat center;
+	background-size: cover;
+	background-position: 0px -20px;
+	overflow: hidden;
+	margin: 6px;
+}
+
+.branchesOverview .searchContainer .searchInput {
+	float: left;
+	line-height: 16px;
+	font-size: 12px;
+	padding: 8px 12px;
+	border: none;
+	width: 90%;
+	outline: none;
+	color: #555;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}

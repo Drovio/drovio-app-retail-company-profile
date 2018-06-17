@@ -1,0 +1,113 @@
+.companyProfileApplication {
+	& {
+		height: 100%;
+		width: 100%;
+		position: relative;
+	}
+	.navbar {
+		& {
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			width: 100%;
+			padding: 5px;
+			height: 45px;
+			background: #FFF;
+			border-bottom: 1px solid #CCC;
+			box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+		}
+		ul.menu {
+			margin: 0px;
+			padding: 0px;
+			list-style-type: none;
+		}
+		ul.menu .menu_item {
+			float: left;
+			margin: 3px 5px;
+			padding: 5px 8px;
+			border-bottom: 3px solid transparent;
+			box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			transition: all .2s ease-in-out;
+			-webkit-transition: all .2s ease-in-out;
+			-moz-transition: all .2s ease-in-out;
+			cursor: pointer;
+		}
+		ul.menu .menu_item.selected,
+		ul.menu .menu_item:hover {
+			color: #ff5252;
+			border-color: #ff5252;
+			transition: all .2s ease-in-out;
+			-webkit-transition: all .2s ease-in-out;
+			-moz-transition: all .2s ease-in-out;
+		}
+	}
+	.mainContainer {
+		position: absolute;
+		top: 45px;
+		left: 0px;
+		width: 100%;
+		bottom: 0px;
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+	
+	.app-sidebar {
+		& {
+			width: 25%;
+			float: left;
+			height: 100%;
+			box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+		}
+		.clogo {
+			width: 100px;
+			height: 100px;
+			margin: 25px auto;
+		}
+		.clogo:empty {
+			background: url('%{media}/logo.svg') no-repeat center;
+			background-size: cover;
+		}
+		.clogo img {
+			width: inherit;
+			height: inherit;
+			border-radius: 50%;
+			-webkit-border-radius: 50%;
+			-moz-border-radius: 50%;
+		}
+	}
+	.app-mainContent {
+		& {
+			width: 75%;
+			float: right;
+			box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+		}
+		.csection {
+			& {
+				border: 1px solid #E8E8E8;
+				background: #FFF;
+				padding: 20px;
+				margin: 10px;
+				box-sizing: border-box;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+			}
+			.hd {
+				font-size: 14px;
+				line-height: 18px;
+				font-weight: normal;
+				margin: 5px 0px;
+				margin-bottom: 20px;
+				color: #5E6570;
+			}
+		}
+	}
+}
